@@ -1,0 +1,31 @@
+{
+  "name": "ai-remove-background",
+  "version": "1.0.0",
+  "description": "API to remove image backgrounds using Adobe Express SDK",
+  "keywords": [
+    "adobe",
+    "express",
+    "background-removal",
+    "api",
+    "hono"
+  ],
+  "author": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.8.2",
+    "@imgly/background-removal-node": "^1.4.5",
+    "dotenv": "^16.3.1",
+    "file-type": "^18.7.0",
+    "hono": "^4.0.5",
+    "sharp": "^0.33.5",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
