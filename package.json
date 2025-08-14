@@ -21,7 +21,7 @@
     "@imgly/background-removal-node": "^1.4.5",
     "dotenv": "^16.5.0",
     "file-type": "^18.7.0",
-    "hono": "^4.7.8",
+    "hono": "^4.8.5",
     "sharp": "^0.34.1",
     "uuid": "^11.1.0"
   },
